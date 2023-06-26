@@ -60,7 +60,6 @@ Config.Resources = {
     ["qb-garbagejob"] = "https://github.com/qbcore-framework/qb-garbagejob",
     ["qb-lapraces"] = "https://github.com/qbcore-framework/qb-lapraces",
     ["hospital_map"] = "https://github.com/qbcore-framework/hospital_map",
-    ["qb-jobs"] = "https://github.com/qbcore-framework/qb-jobs",
     ["qb-loading"] = "https://github.com/qbcore-framework/qb-loading",
     ["qb-diving"] = "https://github.com/qbcore-framework/qb-diving",
     ["qb-truckerjob"] = "https://github.com/qbcore-framework/qb-truckerjob",
