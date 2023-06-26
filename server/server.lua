@@ -205,12 +205,27 @@ RegisterCommand('qb-install', function(source, args, rawCommand)
         assert(password == Config.Password, "Invalid password provided!")
     end
     if not resourcePath then
-        resourcePath = string.gsub(GetCurrentResourceName(), " ", ""):lower()
+        resourcePath = GetResourcePath(GetCurrentResourceName())
         assert(resourcePath, "Error getting fallback path!")
+        local pattern = 'qb%-updater'
+        resourcePath = string.gsub(resourcePath, pattern, repository)   
     end
     resourcePath = string.gsub(resourcePath, "//", "/")
     resourcePath = string.gsub(resourcePath, "/", "\\")
-
+    print("Installing " .. repository .. " to " .. resourcePath)
     DownloadAndInstallGitHubRepo(url, resourcePath)
 end, true)
+
+
+CreateThread(function()
+    TriggerClientEvent('chat:addSuggestion', -1, '/qb-update', 'Update all qb resources')
+    TriggerClientEvent('chat:addSuggestion', -1, '/qb-freshupdate', 'Remove all qb resources and update them')
+    TriggerClientEvent('chat:addSuggestion', -1, '/qb-install', 'Download and soft-install GitHub resource', {
+        { name="url", help="The GitHub URL of the resource you want to install. Example: 'https://github.com/gononono64/qb-updater'" },
+        { name="password", help="Required if enabled in config.lua and the resource is not already installed." }
+    })
+
+end)
+
+
 
