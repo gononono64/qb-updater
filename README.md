@@ -1,4 +1,4 @@
-# qbr-updater
+# qb-updater
 <b>Automatically update your qbr resources</b>.<br><br>
 Resources are registered through the config. <br>
 Use commands /qb-update to update resources based on version number
