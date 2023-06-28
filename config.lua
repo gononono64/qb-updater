@@ -1,81 +1,275 @@
 Config = {}
 
+Config.OS = "windows" -- windows or windows or windows
 
+--Make sure to scroll to the bottom to set your password
+
+--url 
+--ignore
+--useLatestReleaseLink
 Config.Resources = {
-    ["qb-adminmenu"] = "https://github.com/qbcore-framework/qb-adminmenu",
-    ["qb-houses"] = "https://github.com/qbcore-framework/qb-houses",
-    ["qb-inventory"] = "https://github.com/qbcore-framework/qb-inventory",
-    ["qb-multicharacter"] = "https://github.com/qbcore-framework/qb-multicharacter",
-    ["qb-traphouse"] = "https://github.com/qbcore-framework/qb-traphouse",
-    ["qb-core"] = "https://github.com/qbcore-framework/qb-core",
-    ["qb-weathersync"] = "https://github.com/qbcore-framework/qb-weathersync",
-    ["qb-atms"] = "https://github.com/qbcore-framework/qb-atms",
-    ["qb-smallresources"] = "https://github.com/qbcore-framework/qb-smallresources",
-    ["qb-banking"] = "https://github.com/qbcore-framework/qb-banking",
-    ["qb-fitbit"] = "https://github.com/qbcore-framework/qb-fitbit",
-    ["qb-cityhall"] = "https://github.com/qbcore-framework/qb-cityhall",
-    ["qb-management"] = "https://github.com/qbcore-framework/qb-management",
-    ["qb-houserobbery"] = "https://github.com/qbcore-framework/qb-houserobbery",
-    ["qb-ambulancejob"] = "https://github.com/qbcore-framework/qb-ambulancejob",
-    ["qb-garages"] = "https://github.com/qbcore-framework/qb-garages",
-    ["qb-vehiclekeys"] = "https://github.com/qbcore-framework/qb-vehiclekeys",
-    ["qb-customs"] = "https://github.com/qbcore-framework/qb-customs",
-    ["qb-policejob"] = "https://github.com/qbcore-framework/qb-policejob",
-    ["qb-drugs"] = "https://github.com/qbcore-framework/qb-drugs",
-    ["qb-radio"] = "https://github.com/qbcore-framework/qb-radio",
-    ["qb-bankrobbery"] = "https://github.com/qbcore-framework/qb-bankrobbery",
-    ["progressbar"] = "https://github.com/qbcore-framework/progressbar",
-    ["qb-weapons"] = "https://github.com/qbcore-framework/qb-weapons",
-    ["qb-target"] = "https://github.com/qbcore-framework/qb-target",
-    ["qb-taxijob"] = "https://github.com/qbcore-framework/qb-taxijob",
-    ["qb-vehicleshop"] = "https://github.com/qbcore-framework/qb-vehicleshop",
-    ["qb-hud"] = "https://github.com/qbcore-framework/qb-hud",
-    ["qb-commandbinding"] = "https://github.com/qbcore-framework/qb-commandbinding",
-    ["qb-doorlock"] = "https://github.com/qbcore-framework/qb-doorlock",
-    ["qb-crypto"] = "https://github.com/qbcore-framework/qb-crypto",
-    ["qb-spawn"] = "https://github.com/qbcore-framework/qb-spawn",
-    ["qb-pawnshop"] = "https://github.com/qbcore-framework/qb-pawnshop",
-    ["qb-recyclejob"] = "https://github.com/qbcore-framework/qb-recyclejob",
-    ["qb-truckrobbery"] = "https://github.com/qbcore-framework/qb-truckrobbery",
-    ["qb-phone"] = "https://github.com/qbcore-framework/qb-phone",
-    ["qb-menu"] = "https://github.com/qbcore-framework/qb-menu",
-    ["qb-shops"] = "https://github.com/qbcore-framework/qb-shops",
-    ["qb-mechanicjob"] = "https://github.com/qbcore-framework/qb-mechanicjob",
-    ["qb-clothing"] = "https://github.com/qbcore-framework/qb-clothing",
-    ["qb-towjob"] = "https://github.com/qbcore-framework/qb-towjob",
-    ["qb-skillbar"] = "https://github.com/qbcore-framework/qb-skillbar",
-    ["qb-vehiclefailure"] = "https://github.com/qbcore-framework/qb-vehiclefailure",
-    ["qb-prison"] = "https://github.com/qbcore-framework/qb-prison",
-    ["qb-vehiclesales"] = "https://github.com/qbcore-framework/qb-vehiclesales",
-    ["qb-hotdogjob"] = "https://github.com/qbcore-framework/qb-hotdogjob",
-    ["qb-apartments"] = "https://github.com/qbcore-framework/qb-apartments",
-    ["qb-streetraces"] = "https://github.com/qbcore-framework/qb-streetraces",
-    ["qb-tunerchip"] = "https://github.com/qbcore-framework/qb-tunerchip",
-    ["qb-busjob"] = "https://github.com/qbcore-framework/qb-busjob",
-    ["qb-jewelery"] = "https://github.com/qbcore-framework/qb-jewelery",
-    ["qb-interior"] = "https://github.com/qbcore-framework/qb-interior",
-    ["qb-storerobbery"] = "https://github.com/qbcore-framework/qb-storerobbery",
-    ["qb-weed"] = "https://github.com/qbcore-framework/qb-weed",
-    ["qb-newsjob"] = "https://github.com/qbcore-framework/qb-newsjob",
-    ["qb-garbagejob"] = "https://github.com/qbcore-framework/qb-garbagejob",
-    ["qb-lapraces"] = "https://github.com/qbcore-framework/qb-lapraces",
-    ["hospital_map"] = "https://github.com/qbcore-framework/hospital_map",
-    ["qb-loading"] = "https://github.com/qbcore-framework/qb-loading",
-    ["qb-diving"] = "https://github.com/qbcore-framework/qb-diving",
-    ["qb-truckerjob"] = "https://github.com/qbcore-framework/qb-truckerjob",
-    ["qb-radialmenu"] = "https://github.com/qbcore-framework/qb-radialmenu",
-    ["qb-scoreboard"] = "https://github.com/qbcore-framework/qb-scoreboard",
-    ["qb-vineyard"] = "https://github.com/qbcore-framework/qb-vineyard",
-    ["qb-input"] = "https://github.com/qbcore-framework/qb-input",
-    ["qb-scrapyard"] = "https://github.com/qbcore-framework/qb-scrapyard",
-    ["qb-printer"] = "https://github.com/qbcore-framework/qb-printer",
-    ["qb-lockpick"] = "https://github.com/qbcore-framework/qb-lockpick",
-    ["qb-keyminigame"] = "https://github.com/qbcore-framework/qb-keyminigame",
-    ["qb-anticheat"] = "https://github.com/qbcore-framework/qb-anticheat",
-    ["mhacking"] = "https://github.com/qbcore-framework/mhacking",
-    ["dealer_map"] = "https://github.com/qbcore-framework/dealer_map",
-    ["safecracker"] = "https://github.com/qbcore-framework/safecracker",
-    ["qb-updater"] = "https://github.com/gononono64/qb-updater"
+    ["menuv"] = {
+        url = "https://github.com/ThymonA/menuv/",
+        branch = 'master'
+    },
+    ["bob74_ipl"] = {
+        url = "https://github.com/qbcore-framework/bob74_ipl",
+        branch = 'master'
+    },
+    ["safecracker"] = {
+        url = "https://github.com/qbcore-framework/safecracker"
+    },
+    ["screenshot-basic"] = {
+        url = "https://github.com/citizenfx/screenshot-basic",
+        branch = 'master'
+    },
+    ["progressbar"] = {
+        url = "https://github.com/qbcore-framework/progressbar"
+    },
+    ["interact-sound"] = {
+        url = "https://github.com/qbcore-framework/interact-sound",
+        branch = 'master'
+    },
+    ["mhacking"] = {
+        url = "https://github.com/qbcore-framework/mhacking"
+    },
+    ["connectqueue"] = {
+        url = "https://github.com/qbcore-framework/connectqueue",
+        branch = 'master'
+    },
+    ["rpemotes"] = {
+        url = "https://github.com/qbcore-framework/rpemotes",
+        branch = 'master'
+    },
+    ["PolyZone"] = {
+        url = "https://github.com/qbcore-framework/PolyZone",
+        branch = 'master'
+    },
+    ["LegacyFuel"] = {
+        url = "https://github.com/qbcore-framework/LegacyFuel",
+        branch = 'master'
+    },
+
+    ["pma-voice"] = {
+        url = "https://github.com/AvarianKnight/pma-voice"
+    },
+    ["qb-radio"] = {
+        url = "https://github.com/qbcore-framework/qb-radio"
+    },
+    ["hospital_map"] = {
+        url = "https://github.com/qbcore-framework/hospital_map"
+    },
+    ["dealer_map"] = {
+        url = "https://github.com/qbcore-framework/dealer_map"
+    },
+    ["prison_map"] = {
+        url = "https://github.com/qbcore-framework/prison_map"
+    },
+
+    ["qb-core"] = {
+        url = "https://github.com/qbcore-framework/qb-core"
+    },
+    ["qb-scoreboard"] = {
+        url = "https://github.com/qbcore-framework/qb-scoreboard"
+    },
+    ["qb-adminmenu"] = {
+        url = "https://github.com/qbcore-framework/qb-adminmenu"
+    },
+    ["qb-multicharacter"] = {
+        url = "https://github.com/qbcore-framework/qb-multicharacter"
+    },
+    ["qb-target"] = {
+        url = "https://github.com/qbcore-framework/qb-target"
+    },
+    ["qb-vehiclesales"] = {
+        url = "https://github.com/qbcore-framework/qb-vehiclesales"
+    },
+    ["qb-vehicleshop"] = {
+        url = "https://github.com/qbcore-framework/qb-vehicleshop"
+    },
+    ["qb-houserobbery"] = {
+        url = "https://github.com/qbcore-framework/qb-houserobbery"
+    },
+    ["qb-prison"] = {
+        url = "https://github.com/qbcore-framework/qb-prison"
+    },
+    ["qb-atms"] = {
+        url = "https://github.com/qbcore-framework/qb-atms"
+    },
+    ["qb-hud"] = {
+        url = "https://github.com/qbcore-framework/qb-hud"
+    },
+    ["qb-management"] = {
+        url = "https://github.com/qbcore-framework/qb-management"
+    },
+    ["qb-weed"] = {
+        url = "https://github.com/qbcore-framework/qb-weed"
+    },
+    ["qb-lapraces"] = {
+        url = "https://github.com/qbcore-framework/qb-lapraces"
+    },
+    ["qb-inventory"] = {
+        url = "https://github.com/qbcore-framework/qb-inventory"
+    },
+    ["qb-houses"] = {
+        url = "https://github.com/qbcore-framework/qb-houses"
+    },
+    ["qb-garages"] = {
+        url = "https://github.com/qbcore-framework/qb-garages"
+    },
+    ["qb-ambulancejob"] = {
+        url = "https://github.com/qbcore-framework/qb-ambulancejob"
+    },
+    ["qb-vehiclefailure"] = {
+        url = "https://github.com/qbcore-framework/qb-vehiclefailure"
+    },
+    ["qb-radialmenu"] = {
+        url = "https://github.com/qbcore-framework/qb-radialmenu"
+    },
+    ["qb-crypto"] = {
+        url = "https://github.com/qbcore-framework/qb-crypto"
+    },
+    ["qb-weathersync"] = {
+        url = "https://github.com/qbcore-framework/qb-weathersync"
+    },
+    ["qb-policejob"] = {
+        url = "https://github.com/qbcore-framework/qb-policejob"
+    },
+    ["qb-traphouse"] = {
+        url = "https://github.com/qbcore-framework/qb-traphouse"
+    },
+    ["qb-apartments"] = {
+        url = "https://github.com/qbcore-framework/qb-apartments"
+    },
+    ["qb-vehiclekeys"] = {
+        url = "https://github.com/qbcore-framework/qb-vehiclekeys"
+    },
+    ["qb-mechanicjob"] = {
+        url = "https://github.com/qbcore-framework/qb-mechanicjob"
+    },
+    ["qb-phone"] = {
+        url = "https://github.com/qbcore-framework/qb-phone"
+    },
+    ["qb-vineyard"] = {
+        url = "https://github.com/qbcore-framework/qb-vineyard"
+    },
+    ["qb-weapons"] = {
+        url = "https://github.com/qbcore-framework/qb-weapons"
+    },
+    ["qb-scrapyard"] = {
+        url = "https://github.com/qbcore-framework/qb-scrapyard"
+    },
+    ["qb-tunerchip"] = {
+        url = "https://github.com/qbcore-framework/qb-tunerchip"
+    },
+    ["qb-towjob"] = {
+        url = "https://github.com/qbcore-framework/qb-towjob"
+    },
+    ["qb-streetraces"] = {
+        url = "https://github.com/qbcore-framework/qb-streetraces"
+    },
+    ["qb-storerobbery"] = {
+        url = "https://github.com/qbcore-framework/qb-storerobbery"
+    },
+    ["qb-spawn"] = {
+        url = "https://github.com/qbcore-framework/qb-spawn"
+    },
+    ["qb-skillbar"] = {
+        url = "https://github.com/qbcore-framework/qb-skillbar"
+    },
+    ["qb-smallresources"] = {
+        url = "https://github.com/qbcore-framework/qb-smallresources"
+    },
+    ["qb-recyclejob"] = {
+        url = "https://github.com/qbcore-framework/qb-recyclejob"
+    },
+    ["qb-diving"] = {
+        url = "https://github.com/qbcore-framework/qb-diving"
+    },
+    ["qb-cityhall"] = {
+        url = "https://github.com/qbcore-framework/qb-cityhall"
+    },
+    ["qb-truckrobbery"] = {
+        url = "https://github.com/qbcore-framework/qb-truckrobbery"
+    },
+    ["qb-pawnshop"] = {
+        url = "https://github.com/qbcore-framework/qb-pawnshop"
+    },
+    ["qb-taxijob"] = {
+        url = "https://github.com/qbcore-framework/qb-taxijob"
+    },
+    ["qb-busjob"] = {
+        url = "https://github.com/qbcore-framework/qb-busjob"
+    },
+    ["qb-newsjob"] = {
+        url = "https://github.com/qbcore-framework/qb-newsjob"
+    },
+    ["qb-jewelery"] = {
+        url = "https://github.com/qbcore-framework/qb-jewelery"
+    },
+    ["qb-bankrobbery"] = {
+        url = "https://github.com/qbcore-framework/qb-bankrobbery"
+    },
+    ["qb-truckerjob"] = {
+        url = "https://github.com/qbcore-framework/qb-truckerjob"
+    },
+    ["qb-keyminigame"] = {
+        url = "https://github.com/qbcore-framework/qb-keyminigame"
+    },
+    ["qb-fitbit"] = {
+        url = "https://github.com/qbcore-framework/qb-fitbit"
+    },
+    ["qb-commandbinding"] = {
+        url = "https://github.com/qbcore-framework/qb-commandbinding"
+    },
+    ["qb-banking"] = {
+        url = "https://github.com/qbcore-framework/qb-banking"
+    },
+    ["qb-clothing"] = {
+        url = "https://github.com/qbcore-framework/qb-clothing"
+    },
+    ["qb-hotdogjob"] = {
+        url = "https://github.com/qbcore-framework/qb-hotdogjob"
+    },
+    ["qb-doorlock"] = {
+        url = "https://github.com/qbcore-framework/qb-doorlock"
+    },
+    ["qb-garbagejob"] = {
+        url = "https://github.com/qbcore-framework/qb-garbagejob"
+    },
+    ["qb-drugs"] = {
+        url = "https://github.com/qbcore-framework/qb-drugs"
+    },
+    ["qb-shops"] = {
+        url = "https://github.com/qbcore-framework/qb-shops"
+    },
+    ["qb-lockpick"] = {
+        url = "https://github.com/qbcore-framework/qb-lockpick"
+    },
+    ["qb-interior"] = {
+        url = "https://github.com/qbcore-framework/qb-interior"
+    },
+    ["qb-menu"] = {
+        url = "https://github.com/qbcore-framework/qb-menu"
+    },
+    ["qb-input"] = {
+        url = "https://github.com/qbcore-framework/qb-input"
+    },
+    ["qb-loading"] = {
+        url = "https://github.com/qbcore-framework/qb-loading"
+    },
+    --special cookies
+    ["qb-updater"] = {
+        url = "https://github.com/gononono64/qb-updater",
+        ignore = {}
+    },
+    ['oxmysql'] = {
+        url = "https://github.com/overextended/oxmysql",
+        ignore = {},
+        useLatestReleaseLink = true
+    }
+
+    
 }
 
 
