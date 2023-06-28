@@ -19,7 +19,7 @@
     <ul>
       <li>Parameters:</li>
       <ul>
-        <li><code>password</code> (optional): The password set in qb-updater. Required if enabled in <code>config.lua</code>.</li>
+        <li><code>password</code> (optional):<br>The password set in qb-updater. Required if enabled in <code>config.lua</code>.</li>
       </ul>
     </ul>
   </li>
@@ -29,7 +29,7 @@
     <ul>
       <li>Parameters:</li>
       <ul>
-        <li><code>password</code> (optional): The password set in qb-updater. Required if enabled in <code>config.lua</code>.</li>
+        <li><code>password</code> (optional):<br>The password set in qb-updater. Required if enabled in <code>config.lua</code>.</li>
       </ul>
     </ul>
   </li>
@@ -39,9 +39,9 @@
     <ul>
       <li>Parameters:</li>
       <ul>
-        <li><code>url</code>: The GitHub URL of the resource you want to install. Example: 'https://github.com/gononono64/qb-updater'</li>
+        <li><code>url</code>:<br>The GitHub URL of the resource you want to install. Example: 'https://github.com/gononono64/qb-updater'</li>
         <li><code>branch/password</code> (optional):<br>[Branch] The branch of the resource you want to install. Example: 'main' or 'master' (DEFAULT: 'main') <br> [Password] The password set in qb-updater. Required if enabled in <code>config.lua</code> and the resource is not already installed.</li>
-        <li><code>password</code> (optional): The password set in qb-updater. Required if enabled in <code>config.lua</code> and the resource is not already installed.</li>
+        <li><code>password</code> (optional):<br>The password set in qb-updater. Required if enabled in <code>config.lua</code> and the resource is not already installed.</li>
       </ul>
     </ul>
   </li>
@@ -51,9 +51,9 @@
     <ul>
       <li>Parameters:</li>
       <ul>
-        <li><code>url</code>: The GitHub URL of the resource you want to install. Example: 'https://github.com/gononono64/qb-updater'</li>
+        <li><code>url</code>:<br>The GitHub URL of the resource you want to install. Example: 'https://github.com/gononono64/qb-updater'</li>
         <li><code>branch/password</code> (optional):<br>[Branch] The branch of the resource you want to install. Example: 'main' or 'master' (DEFAULT: 'main') <br> [Password] The password set in qb-updater. Required if enabled in <code>config.lua</code> and the resource is not already installed.</li>
-        <li><code>password</code> (optional): The password set in qb-updater. Required if enabled in <code>config.lua</code> and the resource is not already installed.</li>
+        <li><code>password</code> (optional):<br>The password set in qb-updater. Required if enabled in <code>config.lua</code> and the resource is not already installed.</li>
       </ul>
     </ul>
   </li>
