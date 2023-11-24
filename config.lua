@@ -93,9 +93,6 @@ Config.Resources = {
     ["qb-prison"] = {
         url = "https://github.com/qbcore-framework/qb-prison"
     },
-    ["qb-atms"] = {
-        url = "https://github.com/qbcore-framework/qb-atms"
-    },
     ["qb-hud"] = {
         url = "https://github.com/qbcore-framework/qb-hud"
     },
